@@ -21,6 +21,7 @@ exports.handler = async function (event, context) {
             banReason: params.get("banReason") || undefined,
             appealText: params.get("appealText") || undefined,
             futureActions: params.get("futureActions") || undefined,
+            test: params.get("test") || undefined,
             token: params.get("token") || undefined
         };
     }
